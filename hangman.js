@@ -10,3 +10,10 @@ function showGuess(word, guesses) {
 
 console.log('test show guess 1:', showGuess('hello', ['l']) === '_ _ l l _')
 console.log('test show guess 2:', showGuess('hello', ['l', 'a', 'e']) === '_ e l l _')
+
+function isWinner(word, guesses) {
+    return showGuess(word, guesses).indexOf("_") === -1;
+}
+
+console.log('test winner 1:', !isWinner('hello', ['e', 'x']))
+console.log('test winner 2:', isWinner('hello', ['o', 'l', 'e', 'h']))

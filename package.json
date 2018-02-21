@@ -1,0 +1,22 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "hangman lab for codaisseur",
+  "main": "hangman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsch1/hangmanjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsch1/hangmanjs/issues"
+  },
+  "homepage": "https://github.com/nsch1/hangmanjs#readme",
+  "dependencies": {
+    "random-words": "^1.0.0"
+  }
+}
